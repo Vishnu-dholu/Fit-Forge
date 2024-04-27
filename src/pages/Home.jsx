@@ -1,3 +1,4 @@
+import FeaturedContent from "../components/FeaturedContent";
 import MuscleMap from "../components/MuscleMap";
 import WorkoutOptions from "../components/WorkoutOptions";
 
@@ -9,6 +10,7 @@ export default function Home() {
           <MuscleMap />
           <WorkoutOptions />
         </div>
+        <FeaturedContent />
       </main>
     </div>
   );
